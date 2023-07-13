@@ -27,13 +27,31 @@
 
   <dependencies>
     <!-- Dependencies -->
-    <dependency>
+  <dependency>
       <groupId>org.eclipse.microprofile</groupId>
       <artifactId>microprofile</artifactId>
       <version>4.1</version>
       <type>pom</type>
       <scope>provided</scope>
-    </dependency>
+  </dependency>
+  <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.0</version>
+    <scope>provided</scope>
+</dependency>
+  <dependency>
+    <groupId>com.ibm.websphere.appserver.api</groupId>
+    <artifactId>com.ibm.websphere.appserver.api.social</artifactId>
+    <version>1.0.59</version>
+    <scope>provided</scope>
+</dependency>  
+<dependency>
+  <groupId>com.ibm.websphere.appserver.api</groupId>
+  <artifactId>com.ibm.websphere.appserver.api.jwt</artifactId>
+  <version>1.1.36</version>
+  <scope>provided</scope>
+</dependency>
     <!-- Dependencies for tests -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
