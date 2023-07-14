@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "HelloServlet", urlPatterns = "/cognito/")
+@WebServlet(name = "HelloServlet", urlPatterns = "/cognito/*")
 @ServletSecurity(value = @HttpConstraint(rolesAllowed = { "user" }))
 public class HelloServlet extends HttpServlet {
 
