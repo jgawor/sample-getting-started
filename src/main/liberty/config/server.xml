@@ -7,7 +7,7 @@
     <feature>mpHealth-4.0</feature>
     <feature>mpConfig-3.0</feature>
     <feature>socialLogin-1.0</feature>
-    <feature>appSecurity-4.0</feature>    
+    <feature>appSecurity-5.0</feature>
   </featureManager>
 
   <applicationManager autoExpand="true" />
