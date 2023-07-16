@@ -22,7 +22,7 @@ function getRuntimeRequest() {
             var version = req.responseText;
             if (version != "") {
                 var appTitle = document.getElementById("appTitle");
-                appTitle.innerText = "Open Liberty " + version + " System Properties Sample 1689474429";
+                appTitle.innerText = "Open Liberty " + version + " System Properties Sample 1689479348";
             }
         }
     };
