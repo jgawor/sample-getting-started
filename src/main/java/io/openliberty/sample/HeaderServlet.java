@@ -21,7 +21,7 @@ public class HeaderServlet extends HttpServlet {
      response.setContentType("text/html");  
       PrintWriter out = response.getWriter();  
         
-      out.println("The following HTTP headers sent by your client:<br>");  
+      out.println("<b>The following HTTP headers sent by your client:<b><br>");  
         
         Enumeration<String> e = request.getHeaderNames();  
         while (e.hasMoreElements()) {  
