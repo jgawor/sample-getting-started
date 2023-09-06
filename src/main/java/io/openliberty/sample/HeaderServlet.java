@@ -27,7 +27,7 @@ public class HeaderServlet extends HttpServlet {
         while (e.hasMoreElements()) {  
         String headerName = (String) e.nextElement();  
         String headerValue = request.getHeader(headerName);  
-        out.print("<b>"+headerName + "</b>: ");  
+        out.print("<i>"+headerName + "</i>: ");  
         out.println(headerValue + "<br>");  
       }  
 
